@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: tesla-bot
+    runtime: python
+    repo: https://github.com/mahmuty6128/tesla-bot
+    branch: main
+    plan: free
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 7301767998:AAEDf3ymTnoXE8cCTg67VUpDTyBNFKZ25gE
+      - key: CHAT_ID
+        value: 1251199930
+    startCommand: python main.py
