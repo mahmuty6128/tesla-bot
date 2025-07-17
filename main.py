@@ -5,7 +5,7 @@ import time
 import os
 
 TESLA_URL = "https://www.tesla.com/tr_tr/inventory/new/my"
-TELEGRAM_TOKEN = os.getenv("7301767998:AAEDf3ymTnoXE8cCTg67VUpDTyBNFKZ25gE")
+TELEGRAM_TOKEN = os.getenv("8011938300:AAEeXfbuGOMhmd3O9GvuCPo8iDhXZw0EqNo")
 CHAT_ID = os.getenv("1251199930")
 
 bot = Bot(token=TELEGRAM_TOKEN)
